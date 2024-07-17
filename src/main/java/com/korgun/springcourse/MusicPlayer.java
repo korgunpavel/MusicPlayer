@@ -1,13 +1,10 @@
 package com.korgun.springcourse;
 
 import java.util.ArrayList;
-import java.util.Iterator;
 import java.util.List;
-import java.util.Objects;
 
 public class MusicPlayer {
     private List<Music> musicList = new ArrayList<>();
-
 
     private String name;
     private int volume;
@@ -41,6 +38,7 @@ public class MusicPlayer {
     public void setMusicList(List<Music> musicList) {
     this.musicList = musicList;
 }
+
 //    public void playMusic(){
 //        System.out.println("Playing: " + music.getSong());
 //    }
