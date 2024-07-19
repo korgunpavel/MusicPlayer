@@ -9,6 +9,6 @@
     http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/util https://www.springframework.org/schema/util/spring-util.xsd">
 
     <context:component-scan base-package="com.korgun.springcourse"/>
-    <context:property-placeholder location="musicPlayer.properties"/>
+    <context:property-placeholder location="classpath:musicPlayer.properties"/>
 
 </beans>
